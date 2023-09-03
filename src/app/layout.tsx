@@ -15,6 +15,7 @@ export default function RootLayout({
   return (
     <Providers>
       <html lang="en">
+        <title>Cineverse</title>
         <body className={inter.className}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             <NavBar />
